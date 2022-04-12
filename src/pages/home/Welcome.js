@@ -29,7 +29,7 @@ const Welcome = () => {
     }, [])
     return (
         <>
-            <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-22ce23e4 elementor-section-height-min-height eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="22ce23e4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classNameic&quot;,&quot;_ha_eqh_enable&quot;:false}"><div className="eae-particle-wrapper " id="eae-particle-22ce23e4"><canvas className="particles-js-canvas-el" width="1172" height="907" style={{ width: "100%", height: "100%" }}></canvas></div>
+            <section id="welcome" data-eae-particle={particle} className="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-22ce23e4 elementor-section-height-min-height eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="22ce23e4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classNameic&quot;,&quot;_ha_eqh_enable&quot;:false}"><div className="eae-particle-wrapper " id="eae-particle-22ce23e4"><canvas className="particles-js-canvas-el" width="1172" height="907" style={{ width: "100%", height: "100%" }}></canvas></div>
                 <div className="elementor-container elementor-column-gap-no">
                     <div className="has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-661f6114" data-id="661f6114" data-element_type="column">
                         <div className="elementor-widget-wrap elementor-element-populated">
@@ -38,7 +38,7 @@ const Welcome = () => {
                                     <div className="elementor-container elementor-column-gap-no">
                                         <div className="has_eae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-15b5a40c" data-id="15b5a40c" data-element_type="column">
                                             <div className="elementor-widget-wrap elementor-element-populated">
-                                                <AnimationOnScroll animateOnce={true} animateIn="animate__bounce">
+                                                <AnimationOnScroll animateOnce={true} animateIn="animate__bounce" style={{ marginBottom: "20px" }}>
                                                     <div className="elementor-element elementor-element-6cf113ab elementor-widget elementor-widget-text-editor" data-id="6cf113ab" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div className="elementor-widget-container">
                                                             <p>Welcome to</p>						</div>

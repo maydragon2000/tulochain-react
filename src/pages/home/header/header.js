@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./style.css";
+import ScrollButton from "../../../components/scrollButton";
 const Header = () => {
     const [sideDisplay, setSideDisplay] = useState("block");
     const [sideClose, setSideClose] = useState("none");
@@ -84,6 +84,7 @@ const Header = () => {
                 </div>
             </div>
         </header>
+        <ScrollButton />
     </>)
 }
 export default Header;

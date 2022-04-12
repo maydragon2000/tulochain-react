@@ -31,7 +31,7 @@ const Economic = () => {
     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeft">
       <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-4da703af eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4da703af" data-element_type="section" ><div className="eae-particle-wrapper " id="eae-particle-4da703af"><canvas className="particles-js-canvas-el" width="1172" height="236" style={{ width: "100%", height: "100%" }}></canvas></div>
         <div className="elementor-container elementor-column-gap-default">
-          <SingleBox elementCol={50} element="58b837f2" percentElement="ac7285a" commentElement="28a37ef7" percent="60%" hComment="Presale and Initial Exchange Liquidity" />
+          <SingleBox elementCol={50} element="58b837f2" percentElement="ac7285a" commentElement="28a37ef7" percent="55%" hComment="Presale and Initial Exchange Liquidity" />
           <SingleBox elementCol={50} element="b427e91" percentElement="af00eef" commentElement="ae143d6" percent="1,000,000,000,000" hComment="Total Supply" />
         </div>
       </section>
@@ -44,12 +44,12 @@ const Economic = () => {
               <section className="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-69ebed83 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="69ebed83" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
                 <div className="elementor-container elementor-column-gap-default">
                   <SingleBox elementCol={25} element="a4d6326" percentElement="3b9f9e7" commentElement="b77eae5" percent="20%" pComment="Ecosystem" />
-                  <SingleBox elementCol={25} element="8871a43" percentElement="4456357d" commentElement="2c9da55b" percent="5%" pComment="Private Sale" />
+                  <SingleBox elementCol={25} element="8871a43" percentElement="4456357d" commentElement="2c9da55b" percent="10%" pComment="Private Sale" />
                   <SingleBox elementCol={25} element="48f3d2b4" percentElement="71829fe7" commentElement="9d465f6" percent="10%" pComment="Team Tokens" />
                   <SingleBox elementCol={25} element="27d44791" percentElement="9f8f6ca" commentElement="1e3e53a6" percent="5%" pComment="Advisor tokens" />
 
 
-                  
+
                 </div>
               </section>
             </div>
