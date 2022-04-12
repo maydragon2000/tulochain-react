@@ -3,6 +3,7 @@ import { AppContext } from "../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "./style.css";
+import SingleBox from "../../components/singleBox";
 const Economic = () => {
   const particle = useContext(AppContext);
 
@@ -30,38 +31,8 @@ const Economic = () => {
     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeft">
       <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-4da703af eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4da703af" data-element_type="section" ><div className="eae-particle-wrapper " id="eae-particle-4da703af"><canvas className="particles-js-canvas-el" width="1172" height="236" style={{ width: "100%", height: "100%" }}></canvas></div>
         <div className="elementor-container elementor-column-gap-default">
-          <div className="has_eae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58b837f2" data-id="58b837f2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-            <div className="elementor-widget-wrap elementor-element-populated">
-              <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                <div className="elementor-element elementor-element-ac7285a elementor-widget elementor-widget-text-editor " data-id="ac7285a" data-element_type="widget" data-widget_type="text-editor.default">
-                  <div className="elementor-widget-container">
-                    <p>60%</p>						</div>
-                </div>
-              </AnimationOnScroll>
-              <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                <div className="elementor-element elementor-element-28a37ef7 elementor-widget elementor-widget-heading " data-id="28a37ef7" data-element_type="widget" data-widget_type="heading.default">
-                  <div className="elementor-widget-container">
-                    <h1 className="elementor-heading-title elementor-size-xl">Presale and Initial Exchange Liquidity</h1>		</div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-          </div>
-          <div className="has_eae_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b427e91" data-id="b427e91" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-            <div className="elementor-widget-wrap elementor-element-populated">
-              <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                <div className="elementor-element elementor-element-af00eef elementor-widget elementor-widget-text-editor " data-id="af00eef" data-element_type="widget" data-widget_type="text-editor.default">
-                  <div className="elementor-widget-container">
-                    <p><strong>1,000,000,000,000</strong></p>						</div>
-                </div>
-              </AnimationOnScroll>
-              <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                <div className="elementor-element elementor-element-ae143d6 elementor-widget elementor-widget-heading " data-id="ae143d6" data-element_type="widget" data-widget_type="heading.default">
-                  <div className="elementor-widget-container">
-                    <h1 className="elementor-heading-title elementor-size-xl">Total Supply</h1>		</div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-          </div>
+          <SingleBox elementCol={50} element="58b837f2" percentElement="ac7285a" commentElement="28a37ef7" percent="60%" hComment="Presale and Initial Exchange Liquidity" />
+          <SingleBox elementCol={50} element="b427e91" percentElement="af00eef" commentElement="ae143d6" percent="1,000,000,000,000" hComment="Total Supply" />
         </div>
       </section>
     </AnimationOnScroll>
@@ -72,70 +43,13 @@ const Economic = () => {
             <div className="elementor-widget-wrap elementor-element-populated">
               <section className="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-69ebed83 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="69ebed83" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
                 <div className="elementor-container elementor-column-gap-default">
-                  <div className="has_eae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a4d6326" data-id="a4d6326" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                    <div className="elementor-widget-wrap elementor-element-populated">
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-3b9f9e7 elementor-widget elementor-widget-text-editor " data-id="3b9f9e7" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>20%</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-b77eae5 elementor-widget elementor-widget-text-editor " data-id="b77eae5" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>Ecosystem</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                    </div>
-                  </div>
-                  <div className="has_eae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8871a43" data-id="8871a43" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                    <div className="elementor-widget-wrap elementor-element-populated">
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-4456357d elementor-widget elementor-widget-text-editor " data-id="4456357d" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>5%</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-2c9da55b elementor-widget elementor-widget-text-editor " data-id="2c9da55b" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>Private Sale</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                    </div>
-                  </div>
-                  <div className="has_eae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48f3d2b4" data-id="48f3d2b4" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                    <div className="elementor-widget-wrap elementor-element-populated">
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-71829fe7 elementor-widget elementor-widget-text-editor " data-id="71829fe7" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>10%</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-9d465f6 elementor-widget elementor-widget-text-editor " data-id="9d465f6" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>Team Tokens</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                    </div>
-                  </div>
-                  <div className="has_eae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-27d44791" data-id="27d44791" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                    <div className="elementor-widget-wrap elementor-element-populated">
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-9f8f6ca elementor-widget elementor-widget-text-editor " data-id="9f8f6ca" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>5%</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
-                        <div className="elementor-element elementor-element-1e3e53a6 elementor-widget elementor-widget-text-editor " data-id="1e3e53a6" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="elementor-widget-container">
-                            <p>Advisor tokens</p>						</div>
-                        </div>
-                      </AnimationOnScroll>
-                    </div>
-                  </div>
+                  <SingleBox elementCol={25} element="a4d6326" percentElement="3b9f9e7" commentElement="b77eae5" percent="20%" pComment="Ecosystem" />
+                  <SingleBox elementCol={25} element="8871a43" percentElement="4456357d" commentElement="2c9da55b" percent="5%" pComment="Private Sale" />
+                  <SingleBox elementCol={25} element="48f3d2b4" percentElement="71829fe7" commentElement="9d465f6" percent="10%" pComment="Team Tokens" />
+                  <SingleBox elementCol={25} element="27d44791" percentElement="9f8f6ca" commentElement="1e3e53a6" percent="5%" pComment="Advisor tokens" />
+
+
+                  
                 </div>
               </section>
             </div>
