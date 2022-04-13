@@ -14,7 +14,7 @@ const SingleFeature = (props) => {
                             </div>
                         </div>
                     </div>
-                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp" className="single-feature-title" >
                         <div className={`elementor-element elementor-element-${props.titleElement} elementor-widget elementor-widget-text-editor`} data-id={props.titleElement} data-element_type="widget" data-widget_type="text-editor.default" style={{ display: props.titleDisplay }}>
                             <div className="elementor-widget-container">
                                 <p className="heading-3">{props.title}</p>						</div>
@@ -23,7 +23,7 @@ const SingleFeature = (props) => {
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
                         <div className={`elementor-element elementor-element-${props.descriptionElement} elementor-widget elementor-widget-text-editor`} data-id={props.descriptionElement} data-element_type="widget" data-widget_type="text-editor.default">
                             <div className="elementor-widget-container">
-                                <p>{props.description}<span style={{ color: "#86d17e" }}><a style={{ color: "#86d17e" }} href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf"  rel="noopener">{props.addDescription}</a></span></p>						</div>
+                                <p>{props.description}<span style={{ color: "#86d17e" }}><a style={{ color: "#86d17e" }} href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" rel="noopener">{` ${props.addDescription}`}</a></span></p>						</div>
                         </div>
                     </AnimationOnScroll>
                 </div>

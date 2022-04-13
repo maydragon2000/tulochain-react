@@ -8,7 +8,7 @@
 }
 
 .main-header-bar {
-    border-bottom-style: none;
+    border-bottom-style: none !important;
 }
 
 .elementor-element-5b70b4cb .elementor-button-link {
@@ -46,13 +46,24 @@
 .ast-builder-grid-row-container-inner {
     height: 27.85px;
 }
-.mainLogo{
+
+.mainLogo {
     width: 205px;
     height: 206px !important;
 }
-.nav-header{
+
+.nav-header {
     padding-top: 20px;
 }
+
+.single-feature-title {
+    margin-bottom: 1.6rem;
+}
+
+.readmaplink {
+    border-bottom-style: solid !important;
+}
+
 @media only screen and (max-width: 767px) {
     .elementor-element-5b70b4cb .elementor-button-link {
         width: -webkit-fill-available !important;

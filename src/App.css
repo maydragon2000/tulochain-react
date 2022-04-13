@@ -2160,7 +2160,12 @@ h6,
     border-bottom-width: 1px;
     border-color: #86d17e;
     border-style: solid;
+    border-left-style:none;
+    border-width: thin;
+    border-bottom-style:none;
+    font-size: 15.5px;
 }
+.ast-hfb-header .ast-mobile-popup-content .ast-builder-menu-mobile .main-navigation .menu-item .menu-link
 
 .ast-builder-menu-mobile .main-navigation .menu-item.menu-item-has-children>.ast-menu-toggle {
     top: 0;

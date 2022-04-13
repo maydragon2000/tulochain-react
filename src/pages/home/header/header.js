@@ -80,7 +80,7 @@ const Header = () => {
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#fee" className="menu-link" onClick={sideNav}>DERIDEX Chain Fees</a></li>
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="#structure" className="menu-link" onClick={sideNav}>AGGREGATOR</a></li>
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link" onClick={sideNav}>Whitepaper</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="#roadmap" className="menu-link" onClick={sideNav}>Roadmap</a></li>
+                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="#roadmap" className="menu-link readmaplink" onClick={sideNav}>Roadmap</a></li>
                         </ul></div></nav></div></div>		</div>
                 </div>
             </div>
