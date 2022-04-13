@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaArrowCircleUp } from 'react-icons/fa';
+import myImage from "../pages/home/image/34.png"
 
 const ScrollButton = () => {
 
@@ -19,7 +20,7 @@ const ScrollButton = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
-            
+
         });
     };
 
@@ -27,9 +28,9 @@ const ScrollButton = () => {
 
     return (
 
-        <div id="wpfront-scroll-top-container" style={{ opacity: "0.8", right: "20px", bottom: "20px", display: visible?'block':'none' }}>
+        <div id="wpfront-scroll-top-container" style={{ opacity: "0.8", right: "20px", bottom: "20px", display: visible ? 'block' : 'none' }}>
             <a onClick={scrollToTop}>
-                <img src="image/34.png" alt="" style={{ width: "auto", height: "auto" }} /> </a>      </div>
+                <img src={myImage} alt="" style={{ width: "auto", height: "auto" }} /> </a>      </div>
 
     );
 }

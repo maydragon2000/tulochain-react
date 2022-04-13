@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { AppContext } from "../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import myImage from "./image/Main-logo3-300x300.png"
 const ReadMap = () => {
     const particle = useContext(AppContext);
 
@@ -38,7 +39,7 @@ const ReadMap = () => {
                             <div className="elementor-widget-wrap elementor-element-populated">
                                 <div className="elementor-element elementor-element-635c17b elementor-widget elementor-widget-image" data-id="635c17b" data-element_type="widget" data-widget_type="image.default">
                                     <div className="elementor-widget-container">
-                                        <img width="300" height="300" src="image/Main-logo3-300x300.png" className="attachment-medium size-medium" alt="" loading="lazy" />															</div>
+                                        <img width="300" height="300" src={myImage} className="attachment-medium size-medium" alt="" loading="lazy" />															</div>
                                 </div>
                             </div>
                         </div>

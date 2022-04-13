@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ScrollButton from "../../../components/scrollButton";
-
+import myImage from "../image/logo_transparent-removebg-preview-e1647881080803-300x126.png"
 const Header = () => {
     const [sideDisplay, setSideDisplay] = useState("block");
     const [sideClose, setSideClose] = useState("none");
@@ -24,7 +24,7 @@ const Header = () => {
                                 <div className="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                     <div className="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                         <div className="site-branding ast-site-identity" itemType="https://schema.org/Organization" itemScope="itemscope">
-                                            <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src="image/logo_transparent-removebg-preview-e1647881080803-300x126.png" className="custom-logo" alt="TuloChain" sizes="(max-width: 280px) 100vw, 280px" /></a></span>				</div>
+                                            <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src={myImage} className="custom-logo" alt="TuloChain" sizes="(max-width: 280px) 100vw, 280px" /></a></span>				</div>
                                         {/* <!-- .site-branding --> */}
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ const Header = () => {
                             <div className="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                 <div className="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                     <div className="site-branding ast-site-identity" itemType="https://schema.org/Organization" itemScope="itemscope">
-                                        <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src="image/logo_transparent-removebg-preview-e1647881080803-300x126.png" className="custom-logo" alt="TuloChain"  sizes="(max-width: 280px) 100vw, 280px" /></a></span>				</div>
+                                        <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src={myImage} className="custom-logo" alt="TuloChain" sizes="(max-width: 280px) 100vw, 280px" /></a></span>				</div>
                                     {/* <!-- .site-branding --> */}
                                 </div>
                             </div>
