@@ -9,7 +9,7 @@ const ReadMap = () => {
     return (
         <>
             <AnimationOnScroll animateOnce={true} animateIn="animate__slideInDown">
-                <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-1884e790 eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1884e790" data-element_type="section" id="roadmap" ><div className="eae-particle-wrapper " id="eae-particle-1884e790"><canvas className="particles-js-canvas-el" width="1172" height="277" style={{ width: "100%", width: "100%" }}></canvas></div>
+                <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-1884e790 eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1884e790" data-element_type="section" id="roadmap" ><div className="eae-particle-wrapper " id="eae-particle-1884e790"><canvas className="particles-js-canvas-el" width="1172" height="277" style={{ width: "100%" }}></canvas></div>
                     <div className="elementor-container elementor-column-gap-default">
                         <div className="has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4fa331fe" data-id="4fa331fe" data-element_type="column">
                             <div className="elementor-widget-wrap elementor-element-populated">
@@ -33,7 +33,7 @@ const ReadMap = () => {
                 </section>
             </AnimationOnScroll>
             <AnimationOnScroll animateOnce={true} animateIn="animate__pulse">
-                <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-4be5ea79 eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4be5ea79" data-element_type="section" ><div className="eae-particle-wrapper " id="eae-particle-4be5ea79"><canvas className="particles-js-canvas-el" width="1172" height="807" sstyle={{ width: "100%", width: "100%" }}></canvas></div>
+                <section data-eae-particle={particle} className="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-4be5ea79 eae-particle-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4be5ea79" data-element_type="section" ><div className="eae-particle-wrapper " id="eae-particle-4be5ea79"><canvas className="particles-js-canvas-el" width="1172" height="807" sstyle={{ width: "100%" }}></canvas></div>
                     <div className="elementor-container elementor-column-gap-default">
                         <div className="has_eae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3c729c70" data-id="3c729c70" data-element_type="column">
                             <div className="elementor-widget-wrap elementor-element-populated">

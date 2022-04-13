@@ -10,7 +10,7 @@ const NormalButton = (props) => {
                         <div className={`elementor-element elementor-element-${props.subElement} elementor-align-justify elementor-mobile-align-justify elementor-widget elementor-widget-button`} data-id={props.subElement} data-element_type="widget" data-widget_type="button.default">
                             <div className="elementor-widget-container">
                                 <div className="elementor-button-wrapper">
-                                    <a href={props.href} target="_blank" className="elementor-button-link elementor-button elementor-size-sm elementor-animation-shrink" role="button">
+                                    <a href={props.href}  className="elementor-button-link elementor-button elementor-size-sm elementor-animation-shrink" role="button">
                                         <span className="elementor-button-content-wrapper">
                                             <span className="elementor-button-text">{ props.value}</span>
                                         </span>

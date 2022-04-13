@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ScrollButton from "../../../components/scrollButton";
 import myImage from "../image/logo_transparent-removebg-preview-e1647881080803-300x126.png"
 const Header = () => {
@@ -6,7 +6,7 @@ const Header = () => {
     const [sideClose, setSideClose] = useState("none");
     const sideNav = () => {
 
-        if (sideDisplay == "block") {
+        if (sideDisplay === "block") {
             setSideDisplay("none");
             setSideClose("block");
         } else {
@@ -30,12 +30,12 @@ const Header = () => {
                                 </div>
                                 <div className="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
                                     <div className="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
-                                        <div className="ast-main-header-bar-alignment"><div className="main-header-bar-navigation"><nav className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation" aria-label="Site Navigation" itemType="https://schema.org/SiteNavigationElement" itemScope="itemscope"><div className="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border ast-menu-hover-style-underline  stack-on-mobile" aria-expanded="false"><li id="menu-item-97" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-97"><a href="https://www.tulochain.com/" aria-current="page" className="menu-link">Home</a></li>
+                                        <div className="ast-main-header-bar-alignment"><div className="main-header-bar-navigation"><nav className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation" aria-label="Site Navigation" itemType="https://schema.org/SiteNavigationElement" itemScope="itemscope"><div className="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border ast-menu-hover-style-underline  stack-on-mobile" ><li id="menu-item-97" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-97"><a href="https://www.tulochain.com/" aria-current="page" className="menu-link">Home</a></li>
                                             <li id="menu-item-98" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-98"><a href="#features" className="menu-link">Features</a></li>
                                             <li id="menu-item-99" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a href="#tokeneconomics" className="menu-link">Token Economics</a></li>
                                             <li id="menu-item-100" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#fee" className="menu-link">Tulo Chain Fees</a></li>
                                             <li id="menu-item-101" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="#structure" className="menu-link">Structure</a></li>
-                                            <li id="menu-item-120" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a target="_blank" rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link">Whitepaper</a></li>
+                                            <li id="menu-item-120" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link">Whitepaper</a></li>
                                             <li id="menu-item-102" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="#roadmap" className="menu-link">Roadmap</a></li>
                                         </ul></div></nav></div></div>		</div>
                                 </div>
@@ -79,7 +79,7 @@ const Header = () => {
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a href="#tokeneconomics" className="menu-link" onClick={sideNav}>Token Economics</a></li>
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#fee" className="menu-link" onClick={sideNav}>Tulo Chain Fees</a></li>
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="#structure" className="menu-link" onClick={sideNav}>Structure</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a target="_blank" rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link" onClick={sideNav}>Whitepaper</a></li>
+                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link" onClick={sideNav}>Whitepaper</a></li>
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="#roadmap" className="menu-link" onClick={sideNav}>Roadmap</a></li>
                         </ul></div></nav></div></div>		</div>
                 </div>

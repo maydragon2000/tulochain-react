@@ -1855,8 +1855,6 @@ screen and (max-height:300px) {
 }
 
 .eae-swiper-outer-wrapper .swiper-button-prev {
-    -webkit-mask: url() no-repeat 100% 100%;
-    mask: url() no-repeat 100% 100%;
     -webkit-mask-size: cover;
     mask-size: cover;
     background-image: none;
@@ -1866,13 +1864,9 @@ screen and (max-height:300px) {
 }
 
 .eae-swiper-outer-wrapper .swiper-container-rtl .swiper-button-prev {
-    -webkit-mask: url() no-repeat 100% 100%;
-    mask: url() no-repeat 100% 100%
 }
 
 .eae-swiper-outer-wrapper .swiper-button-next {
-    -webkit-mask: url() no-repeat 100% 100%;
-    mask: url() no-repeat 100% 100%;
     -webkit-mask-size: cover;
     mask-size: cover;
     background-image: none;
@@ -1882,8 +1876,6 @@ screen and (max-height:300px) {
 }
 
 .eae-swiper-outer-wrapper .swiper-container-rtl .swiper-button-next {
-    -webkit-mask: url() no-repeat 100% 100%;
-    mask: url() no-repeat 100% 100%
 }
 
 .elementor-widget-wts-testimonial-slider .eae-swiper-outer-wrapper .swiper-button-next,

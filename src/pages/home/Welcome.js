@@ -12,14 +12,14 @@ const Welcome = () => {
         let degree = 9;
         let lotateState = 0;
         setInterval(() => {
-            if (lotateState == 0) {
+            if (lotateState === 0) {
                 degree -= 0.5;
                 setLotateDegree(degree);
                 if (degree <= -9) {
                     lotateState = 1;
                 }
             }
-            if (lotateState == 1) {
+            if (lotateState === 1) {
                 degree += 0.5;
                 setLotateDegree(degree);
                 if (degree >= 9) {

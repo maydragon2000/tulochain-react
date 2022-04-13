@@ -9,14 +9,14 @@ const Presale = () => {
     let length = 0;
     let lotateState = 0;
     setInterval(() => {
-      if (lotateState == 0) {
+      if (lotateState === 0) {
         length += 0.5;
         setTransLength(length);
         if (length >= 5) {
           lotateState = 1;
         }
       }
-      if (lotateState == 1) {
+      if (lotateState === 1) {
         length -= 0.5;
         setTransLength(length);
         if (length <= 0) {

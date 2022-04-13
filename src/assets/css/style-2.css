@@ -1,14 +1,7 @@
-@font-face {
-    font-family: "Happy Icons";
-    src: url("") format("woff2"), url("") format("woff"), url("") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 .hm,
 .fashm {
-    font-family: "Happy Icons" !important;
     speak: none;
     font-style: normal;
     font-weight: normal;

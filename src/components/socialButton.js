@@ -11,12 +11,12 @@ const SocialButton = (props) => {
                             <div className="elementor-widget-container">
                                 <div className="elementor-social-icons-wrapper elementor-grid">
                                     <span className="elementor-grid-item" style={{ marginRight: "5px" }}>
-                                        <a className={`elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-animation-shrink elementor-repeater-item-${props.telegramElement}`} href="https://t.me/Tulochain" target="_blank">
+                                        <a className={`elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-animation-shrink elementor-repeater-item-${props.telegramElement}`} href="https://t.me/Tulochain" >
                                             <span className="elementor-screen-only">Telegram</span>
                                             <i className="fab fa-telegram"></i>					</a>
                                     </span>
                                     <span className="elementor-grid-item" style={{ marginLeft: "5px" }}>
-                                        <a className={`elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink elementor-repeater-item-${props.twitterElement}`} href="https://twitter.com/tulochain" target="_blank">
+                                        <a className={`elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink elementor-repeater-item-${props.twitterElement}`} href="https://twitter.com/tulochain" >
                                             <span className="elementor-screen-only">Twitter</span>
                                             <i className="fab fa-twitter"></i>					</a>
                                     </span>

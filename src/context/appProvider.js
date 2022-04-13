@@ -1,6 +1,5 @@
 import React from "react";
-import { useContext, useState, createContext } from "react";
-import ReactDOM from "react-dom";
+import {createContext } from "react";
 
 export const AppContext = createContext();
 export const AppProvider = ({ children }) => {
