@@ -3,6 +3,7 @@ import { AppContext } from "../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Presale = () => {
+  var dt = new Date();
   const particle = useContext(AppContext);
   const [transLength, setTransLength] = useState(0);
   useEffect(() => {
@@ -38,7 +39,7 @@ const Presale = () => {
                     <div className="elementor-widget-wrap elementor-element-populated">
                       <div className="elementor-element elementor-element-b999c8a elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="b999c8a" data-element_type="widget" data-widget_type="heading.default">
                         <div className="elementor-widget-container" style={{ willChange: "transform", transform: `translateX(${transLength}px) translateY(${transLength}px)` }}>
-                          <h1 className="elementor-heading-title elementor-size-xl"><a href="https://www.pinksale.finance/#/launchpad/0x7410067eF7d9C4d465023c275F2ebDe527de0F3b?chain=BSC">TOKEN PRESALE - 8th April 3PM UTC</a></h1>		</div>
+                          <h1 className="elementor-heading-title elementor-size-xl"><a href="https://www.pinksale.finance/#/launchpad/0x7410067eF7d9C4d465023c275F2ebDe527de0F3b?chain=BSC">TOKEN PRESALE - {dt.getDate()}th April { dt.getHours()}PM UTC</a></h1>		</div>
                       </div>
                     </div>
                   </div>

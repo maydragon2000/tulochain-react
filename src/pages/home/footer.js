@@ -1,5 +1,6 @@
 import React from "react";
 const Footer = () => {
+    var dt = new Date();
     return (
         <>
             <footer className="site-footer" id="colophon" itemType="https://schema.org/WPFooter" itemScope="itemScope" itemID="#colophon">
@@ -8,7 +9,7 @@ const Footer = () => {
                         <div className="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
                             <div className="site-footer-below-section-1 site-footer-section site-footer-section-1">
                                 <div className="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
-                                    <div className="ast-footer-copyright"><p><strong>Copyright © 2022 TuloChain</strong></p>
+                                    <div className="ast-footer-copyright"><p><strong>Copyright © {dt.getFullYear()} TuloChain</strong></p>
                                     </div></div>
                             </div>
                         </div>

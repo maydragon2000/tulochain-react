@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { AppContext } from "../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import myImage from "./image/Main-logo3-300x300.png"
+import myImage from "./image/streetArtboard-1@0.1x-1.png"
 const ReadMap = () => {
     const particle = useContext(AppContext);
 
@@ -72,7 +72,7 @@ const ReadMap = () => {
                                                             <div className="eae-content-inner">
                                                                 <div className="eae-tl-item-meta-wrapper-inner">
                                                                 </div>
-                                                                <h3 className="eae-tl-item-title">Phase 1</h3><div className="eae-tl-content-innner"><ul><li>Project analysis and research – February - March 2022</li><li>Contract development testing and review – March 2022</li><li>Contract Audit – April 2022</li><li>Promotion and Creating Social Media Branding - April 2022</li><li>Public Presale – April / May 2022</li><li>Listing on CMC, Coin Gecko, etc – Q2 2022</li></ul></div>								</div>
+                                                                <h3 className="eae-tl-item-title">Stage 1</h3><div className="eae-tl-content-innner"><ul><li>Telegram Buildout</li><li>Twitter Buildout</li><li>Pre-Launch Marketing</li><li>Presale on Pinksale</li><li>Dextools Profile Verified</li><li>Staking and Dapp</li><li>CoinGecko Listing</li><li>CoinMarketCap Listing</li><li>$1M Stable Market Cap Target</li></ul></div>								</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -97,7 +97,31 @@ const ReadMap = () => {
                                                             <div className="eae-content-inner">
                                                                 <div className="eae-tl-item-meta-wrapper-inner">
                                                                 </div>
-                                                                <h3 className="eae-tl-item-title">Phase 2</h3><div className="eae-tl-content-innner"><ul><li>Marketing &amp; Growth of Tulo Chain Q2 2022</li><li>Listing on CEX Q2/Q3 2022</li><li>NFT Market Place Implementation – Q4 2022</li><li>Partnership – Q3/Q4 2022</li></ul></div>								</div>
+                                                                <h3 className="eae-tl-item-title">Stage 2</h3><div className="eae-tl-content-innner"><ul><li>Hotbit listing</li><li>2,500 Holder</li><li>$15M Stable Market Cap</li><li> SubReddit Buildout</li></ul></div>								</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div id="11d3543" className="eae-timeline-item elementor-repeater-item-11d3543 custom-image-style-no image-position-">
+
+                                                <div className="eae-tl-item-meta-wrapper">
+
+                                                </div>
+
+                                                <div className="eae-tl-icon-wrapper" id="11d3543">
+                                                    <div className="eae-icon eae-icon-item_icon eae-icon-view-stacked eae-icon-shape-square eae-icon-type-icon">
+                                                        <div className="eae-icon-wrap">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="eae-tl-content-wrapper">
+                                                    <div className="eae-tl-item-content">
+                                                        <div className="eae-tl-content">
+                                                            <div className="eae-content-inner">
+                                                                <div className="eae-tl-item-meta-wrapper-inner">
+                                                                </div>
+                                                                <h3 className="eae-tl-item-title">Stage 3</h3><div className="eae-tl-content-innner"><ul><li>NFT Project Release</li><li>NFT staking Dapp</li><li>Mobile App V1</li><li>Listing on Major exchanges</li><li>Decentralized Futures Protocol V1 + Buyback and Burn Implementation</li><li>Android and iOS launch on Google Play/App Store</li></ul></div>								</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,7 +146,7 @@ const ReadMap = () => {
                                                             <div className="eae-content-inner">
                                                                 <div className="eae-tl-item-meta-wrapper-inner">
                                                                 </div>
-                                                                <h3 className="eae-tl-item-title">Phase 3</h3><div className="eae-tl-content-innner"><ul><li>Ethereum &amp; Poly Chain Bridge – Q3 /Q4 2022</li><li>Developing the TULO Investment DAO framework Q4 2022</li><li>Driving the growth of Tulo Chain beyond 2022</li><li>Developing additional features for the TULO token – 2023</li></ul></div>								</div>
+                                                                <h3 className="eae-tl-item-title">Stage 4</h3><div className="eae-tl-content-innner"><ul><li>Own Spot DEX which will support limit orders</li><li>Cross-chain Swap</li></ul></div>								</div>
                                                         </div>
                                                     </div>
                                                 </div>

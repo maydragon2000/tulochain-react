@@ -4,7 +4,7 @@ import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import NormalButton from "../../components/normalButton";
 import SocialButton from "../../components/socialButton";
-import myImage from "./image/Main-logo1-e1647881160889.png"
+import myImage from "./image/image1_03.png"
 const Welcome = () => {
     const particle = useContext(AppContext);
     const [lotateDegree, setLotateDegree] = useState(-9);
@@ -48,7 +48,7 @@ const Welcome = () => {
                                                 <AnimationOnScroll animateOnce={true} animateIn="animate__lightSpeedIn">
                                                     <div className="elementor-element elementor-element-7b90dad9 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading " data-id="7b90dad9" data-element_type="widget" data-widget_type="heading.default">
                                                         <div className="elementor-widget-container">
-                                                            <h1 className="elementor-heading-title elementor-size-xl">TuloChain</h1>		</div>
+                                                            <h1 className="elementor-heading-title elementor-size-xl">DERIDEX PROTOCOL</h1>		</div>
                                                     </div>
                                                 </AnimationOnScroll>
                                                 <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
@@ -64,7 +64,7 @@ const Welcome = () => {
                                                 <AnimationOnScroll animateOnce={true} animateIn="animate__rollIn">
                                                     <div className="elementor-element elementor-element-0ec5aaa elementor-widget elementor-widget-image " data-id="0ec5aaa" data-element_type="widget" data-widget_type="image.default">
                                                         <div className="elementor-widget-container" style={{ willChange: "transform", transform: `rotateZ(${lotateDegree}deg)` }}>
-                                                            <img src={myImage} title="Main logo1" alt="Main logo1" />															</div>
+                                                            <img className="mainLogo" src={myImage} title="Main logo1" alt="Main logo1" />															</div>
                                                     </div>
                                                 </AnimationOnScroll>
                                             </div>

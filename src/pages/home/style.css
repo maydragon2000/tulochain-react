@@ -46,7 +46,13 @@
 .ast-builder-grid-row-container-inner {
     height: 27.85px;
 }
-
+.mainLogo{
+    width: 205px;
+    height: 206px !important;
+}
+.nav-header{
+    padding-top: 20px;
+}
 @media only screen and (max-width: 767px) {
     .elementor-element-5b70b4cb .elementor-button-link {
         width: -webkit-fill-available !important;
