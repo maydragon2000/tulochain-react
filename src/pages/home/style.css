@@ -12,7 +12,7 @@
 }
 
 .elementor-element-5b70b4cb .elementor-button-link {
-    width: auto;
+    width: auto !important;
 }
 
 .elementor-element-5b70b4cb .elementor-button-wrapper {
@@ -20,7 +20,7 @@
 }
 
 .elementor-element-393827c8 .elementor-button-link {
-    width: auto;
+    width: auto !important;
 }
 
 .elementor-element-28a37ef7,
@@ -49,11 +49,11 @@
 
 @media only screen and (max-width: 767px) {
     .elementor-element-5b70b4cb .elementor-button-link {
-        width: -webkit-fill-available;
+        width: -webkit-fill-available !important;
     }
 
     .elementor-element-393827c8 .elementor-button-link {
-        width: -webkit-fill-available;
+        width: -webkit-fill-available !important;
     }
 
     .elementor-element-7760d31b,

@@ -1459,7 +1459,7 @@ h6,
 
 .ast-builder-menu-1 .menu-item>.menu-link {
     font-size: 17px;
-    font-size: 1.1333333333333rem;
+    /* font-size: 1.1333333333333rem; */
     color: #86d17e;
     padding-right: 0px;
 }

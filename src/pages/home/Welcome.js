@@ -63,7 +63,7 @@ const Welcome = () => {
                                                 <AnimationOnScroll animateOnce={true} animateIn="animate__rollIn">
                                                     <div className="elementor-element elementor-element-0ec5aaa elementor-widget elementor-widget-image " data-id="0ec5aaa" data-element_type="widget" data-widget_type="image.default">
                                                         <div className="elementor-widget-container" style={{ willChange: "transform", transform: `rotateZ(${lotateDegree}deg)` }}>
-                                                            <img src="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Main-logo1-e1647881160889.png" title="Main logo1" alt="Main logo1" />															</div>
+                                                            <img src="image/Main-logo1-e1647881160889.png" title="Main logo1" alt="Main logo1" />															</div>
                                                     </div>
                                                 </AnimationOnScroll>
                                             </div>
