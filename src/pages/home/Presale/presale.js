@@ -2,7 +2,6 @@ import React, { useContext, useState, useEffect } from "react";
 import { AppContext } from "../../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-// import Particles from "react-particles-js";
 
 const Presale = () => {
   var dt = new Date();
