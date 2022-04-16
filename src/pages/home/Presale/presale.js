@@ -1,10 +1,13 @@
 import React, { useContext, useState, useEffect } from "react";
-import { AppContext } from "../../context/appProvider";
+import { AppContext } from "../../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+// import Particles from "react-particles-js";
+
 const Presale = () => {
   var dt = new Date();
   const particle = useContext(AppContext);
+  console.log(particle, "particles");
   const [transLength, setTransLength] = useState(0);
   useEffect(() => {
     let length = 0;
@@ -31,7 +34,6 @@ const Presale = () => {
       <div className="elementor-container elementor-column-gap-default">
         <div className="has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2f05e3b" data-id="2f05e3b" data-element_type="column">
           <div className="elementor-widget-wrap elementor-element-populated">
-            {/* here  */}
             <AnimationOnScroll animateOnce={true} animateIn="animate__rotateInUpLeft">
               <section className="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-ef18e90 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ef18e90" data-element_type="section" >
                 <div className="elementor-container elementor-column-gap-default">
@@ -49,7 +51,7 @@ const Presale = () => {
           </div>
         </div>
       </div>
-    </section>
+      </section>
   </>)
 }
 export default Presale;

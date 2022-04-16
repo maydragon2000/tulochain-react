@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { AppContext } from "../../context/appProvider";
-import "./style.css";
+import { AppContext } from "../../../context/appProvider";
+import "./../style.css";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import SingleBox from "../../components/singleBox";
+import SingleBox from "../../../components/singleBox";
 const Fee = () => {
     const particle = useContext(AppContext);
 

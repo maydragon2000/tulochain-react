@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ScrollButton from "../../../components/scrollButton";
-import myImage from "../image/streetArtboard-1@0.1x-1.png"
+import { Navbar, NavLink, NavItem } from "react-bootstrap"
 const Header = () => {
     const [sideDisplay, setSideDisplay] = useState("block");
     const [sideClose, setSideClose] = useState("none");
@@ -24,20 +24,47 @@ const Header = () => {
                                 <div className="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                     <div className="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                         <div className="site-branding ast-site-identity" itemType="https://schema.org/Organization" itemScope="itemscope">
-                                            <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src={myImage} className="custom-logo" alt="TuloChain"  /></a></span>				</div>
+                                            <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src={"assets/image/logo_transparent-removebg-preview-e1647881080803-300x126.png"} className="custom-logo" alt="TuloChain" /></a></span>				</div>
                                         {/* <!-- .site-branding --> */}
                                     </div>
                                 </div>
                                 <div className="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
                                     <div className="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
-                                        <div className="ast-main-header-bar-alignment"><div className="main-header-bar-navigation"><nav className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation" aria-label="Site Navigation" itemType="https://schema.org/SiteNavigationElement" itemScope="itemscope"><div className="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border ast-menu-hover-style-underline  stack-on-mobile" ><li id="menu-item-97" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-97"><a href="https://www.tulochain.com/" aria-current="page" className="menu-link">Home</a></li>
-                                            <li id="menu-item-98" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-98"><a href="#features" className="menu-link">Features</a></li>
-                                            <li id="menu-item-99" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a href="#tokeneconomics" className="menu-link">About DER</a></li>
-                                            <li id="menu-item-100" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#fee" className="menu-link">DERIDEX Chain Fees</a></li>
-                                            <li id="menu-item-101" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="#structure" className="menu-link">AGGREGATOR</a></li>
-                                            <li id="menu-item-120" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link">Whitepaper</a></li>
-                                            <li id="menu-item-102" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="#roadmap" className="menu-link">Roadmap</a></li>
-                                        </ul></div></nav></div></div>		</div>
+                                        <div className="ast-main-header-bar-alignment">
+                                            <div className="main-header-bar-navigation">
+                                                <Navbar className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation">
+                                                    {/* <nav className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation" aria-label="Site Navigation" itemType="https://schema.org/SiteNavigationElement" itemScope="itemscope"> */}
+                                                    <div className="main-navigation ast-inline-flex">
+                                                        <ul id="ast-hf-menu-1" className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border ast-menu-hover-style-underline  stack-on-mobile" >
+                                                            <NavItem id="menu-item-97" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-97">
+                                                                <NavLink href="https://www.tulochain.com/" aria-current="page" className="menu-link">Home</NavLink>
+                                                            </NavItem>
+                                                            <NavItem id="menu-item-98" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-98">
+                                                                <NavLink href="#features" className="menu-link">Features</NavLink>
+                                                                {/* <a href="#features" className="menu-link">Features</a> */}
+                                                            </NavItem>
+                                                            <NavItem id="menu-item-99" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-99">
+                                                                <NavLink href="#tokeneconomics" className="menu-link">About DER</NavLink>
+                                                            </NavItem>
+                                                            <NavItem id="menu-item-100" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100">
+                                                                <NavLink href="#fee" className="menu-link">DERIDEX Chain Fees</NavLink>
+                                                            </NavItem>
+                                                            <NavItem id="menu-item-101" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101">
+                                                                <NavLink href="#structure" className="menu-link">AGGREGATOR</NavLink>
+                                                            </NavItem>
+                                                            <NavItem id="menu-item-120" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120">
+                                                                <NavLink rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link">Whitepaper</NavLink>
+                                                            </NavItem>
+                                                            <NavItem id="menu-item-102" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102">
+                                                                <NavLink href="#roadmap" className="menu-link">Roadmap</NavLink>
+                                                            </NavItem>
+                                                        </ul>
+                                                    </div>
+                                                </Navbar>
+                                                {/* </nav> */}
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +81,7 @@ const Header = () => {
                             <div className="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                 <div className="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                     <div className="site-branding ast-site-identity" itemType="https://schema.org/Organization" itemScope="itemscope">
-                                        <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src={myImage} className="custom-logo" alt="TuloChain" sizes="(max-width: 280px) 100vw, 280px" /></a></span>				</div>
+                                        <span className="site-logo-img"><a href="https://www.tulochain.com/" className="custom-logo-link" rel="home" aria-current="page"><img width="280" height="118" src={"assets/image/logo_transparent-removebg-preview-e1647881080803-300x126.png"} className="custom-logo" alt="TuloChain" sizes="(max-width: 280px) 100vw, 280px" /></a></span>				</div>
                                     {/* <!-- .site-branding --> */}
                                 </div>
                             </div>
@@ -74,13 +101,14 @@ const Header = () => {
                 </div>
                 <div className="ast-mobile-header-content content-align-flex-start " style={{ display: sideClose }}>
                     <div className="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
-                        <div className="ast-main-header-bar-alignment"><div className="main-header-bar-navigation"><nav className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="ast-mobile-site-navigation" aria-label="Site Navigation" itemType="https://schema.org/SiteNavigationElement" itemScope="itemscope"><div className="main-navigation"><ul id="ast-hf-mobile-menu" className="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-97"><a href="https://www.tulochain.com/" aria-current="page" className="menu-link">Home</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-98"><a href="#features" className="menu-link" onClick={sideNav}>Features</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a href="#tokeneconomics" className="menu-link" onClick={sideNav}>About DER</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#fee" className="menu-link" onClick={sideNav}>DERIDEX Chain Fees</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="#structure" className="menu-link" onClick={sideNav}>AGGREGATOR</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link" onClick={sideNav}>Whitepaper</a></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="#roadmap" className="menu-link readmaplink" onClick={sideNav}>Roadmap</a></li>
+                        <div className="ast-main-header-bar-alignment"><div className="main-header-bar-navigation"><nav className="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="ast-mobile-site-navigation" aria-label="Site Navigation" itemType="https://schema.org/SiteNavigationElement" itemScope="itemscope"><div className="main-navigation"><ul id="ast-hf-mobile-menu" className="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
+                            <NavItem className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-97"><a href="https://www.tulochain.com/" aria-current="page" className="menu-link">Home</a></NavItem>
+                            <NavItem className="menu-item menu-item-type-custom menu-item-object-custom menu-item-98"><NavLink href="#features" className="menu-link" onClick={sideNav}>Features</NavLink></NavItem>
+                            <NavItem className="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><NavLink href="#tokeneconomics" className="menu-link" onClick={sideNav}>About DER</NavLink></NavItem>
+                            <NavItem className="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><NavLink href="#fee" className="menu-link" onClick={sideNav}>DERIDEX Chain Fees</NavLink></NavItem>
+                            <NavItem className="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><NavLink href="#structure" className="menu-link" onClick={sideNav}>AGGREGATOR</NavLink></NavItem>
+                            <NavItem className="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><NavLink rel="noopener" href="https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf" className="menu-link" onClick={sideNav}>Whitepaper</NavLink></NavItem>
+                            <NavItem className="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><NavLink href="#roadmap" className="menu-link readmaplink" onClick={sideNav}>Roadmap</NavLink></NavItem>
                         </ul></div></nav></div></div>		</div>
                 </div>
             </div>

@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { AppContext } from "../../context/appProvider";
+import { AppContext } from "../../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import "./style.css";
-import SingleFeature from "../../components/singleFeature";
+import "./../style.css";
+import SingleFeature from "../../../components/singleFeature";
 const Feature = () => {
     const particle = useContext(AppContext);
     return (

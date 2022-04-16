@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { AppContext } from "../../context/appProvider";
+import { AppContext } from "../../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import NormalButton from "../../components/normalButton";
-import SocialButton from "../../components/socialButton";
+import NormalButton from "../../../components/normalButton";
+import SocialButton from "../../../components/socialButton";
 const Contact = () => {
     const particle = useContext(AppContext);
     return (

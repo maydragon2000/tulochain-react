@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { AppContext } from "../../context/appProvider";
+import { AppContext } from "../../../context/appProvider";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import "./style.css";
-import SingleBox from "../../components/singleBox";
+import "./../style.css";
+import SingleBox from "../../../components/singleBox";
 const Economic = () => {
   const particle = useContext(AppContext);
 

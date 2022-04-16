@@ -29,7 +29,7 @@
 }
 
 .site-footer {
-    border-top-style: solid;
+    /* border-top-style: solid; */
     border-top-width: 1px;
     border-top-color: white;
 }
@@ -62,6 +62,12 @@
 
 .readmaplink {
     border-bottom-style: solid !important;
+}
+
+@media only screen and (max-width: 1027px) {
+    .elementor-6 .elementor-element.elementor-element-7b90dad9 .elementor-heading-title {
+        font-size: 52px !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {

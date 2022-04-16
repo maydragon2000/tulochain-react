@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./header/header";
-import Welcome from "./Welcome";
-import Presale from "./presale";
-import Feature from "./feature";
-import Economic from "./economic";
-import Fee from "./fee";
-import Structure from "./structure";
-import ReadMap from "./readMap";
-import Contact from "./contact";
-import Footer from "./footer";
+import Welcome from "./Welcome/Welcome";
+import Presale from "./Presale/presale";
+import Feature from "./Feature/feature";
+import Economic from "./Economic/economic";
+import Fee from "./Fee/fee";
+import Structure from "./Structure/structure";
+import ReadMap from "./ReadMap/readMap";
+import Contact from "./Contract/contact";
+import Footer from "./Footer/footer";
 const Home = () => {
     return (
         <div itemType="https://schema.org/WebPage" itemScope="itemscope" className="home page-template-default page page-id-6 wp-custom-logo ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-page-builder-template ast-no-sidebar astra-3.7.9 elementor-default elementor-kit-5 elementor-page elementor-page-6 ast-desktop e--ua-blink e--ua-chrome e--ua-webkit ast-mouse-clicked" data-elementor-device-mode="desktop">

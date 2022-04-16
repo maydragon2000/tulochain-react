@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import myImage from "../pages/home/image/34.png"
+// import myImage from "../pages/home/image/34.png"
 
 const ScrollButton = () => {
 
@@ -29,7 +29,7 @@ const ScrollButton = () => {
 
         <div id="wpfront-scroll-top-container" style={{ opacity: "0.8", right: "20px", bottom: "20px", display: visible ? 'block' : 'none' }}>
             <a href='#!' onClick={scrollToTop}>
-                <img src={myImage} alt="" style={{ width: "auto", height: "auto" }} /> </a>      </div>
+                <img src={"assets/image/34.png"} alt="" style={{ width: "auto", height: "auto" }} /> </a>      </div>
 
     );
 }
